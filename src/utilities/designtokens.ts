@@ -3,7 +3,7 @@ const size = {
   sm: "480px", // for mobile screen
   md: "768px", // for tablets
   lg: "1024px", // for laptops
-  xl: "1200px" // for desktop / monitors
+  xl: "1200px", // for desktop / monitors
 };
 
 export const theme = {
@@ -11,6 +11,7 @@ export const theme = {
     primary: "#004DB3",
     secondary: "#004DB3",
     white: "#ffffff",
+    lightBlue: "#E7E7E7",
   },
   fonts: {
     familiy: {
@@ -24,18 +25,28 @@ export const theme = {
       700: 700,
     },
     size: {
-      1: "1rem",
+      8: ".5rem",
+      16: "1rem",
       20: "1.25rem",
+      32: "2rem",
       47: "2.9375rem",
       25: "1.5625rem",
+      64: "4rem",
     },
     lineHeight: {
+      10: ".625rem",
+      14: ".875rem",
       22: "1.375rem",
+      26: "1.625rem",
+      30: "1.875rem",
+      45: "2.8125rem",
       47: "2.9375rem",
+      82: "82px",
     },
   },
   paddings: {
     6: ".375rem",
+    8: ".5rem",
     12: ".75rem",
     13: ".8125rem",
     16: "1rem",
@@ -47,7 +58,10 @@ export const theme = {
     120: "7.5rem",
   },
   margins: {
-    pageTop: "30px",
+    16: "1rem",
+    24: "1.5rem",
+    32: "2rem",
+    120: "7.5rem",
   },
 
   device: {

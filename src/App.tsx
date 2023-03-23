@@ -1,4 +1,4 @@
-import Button from "./components/Button/Button.component";
+import Hero from "./components/Hero/Hero.component";
 import Navbar from "./components/Navbar/Navbar.component";
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-     
+      <Hero />
     </div>
   );
 }

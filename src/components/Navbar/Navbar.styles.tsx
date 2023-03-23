@@ -1,19 +1,22 @@
 import styled from "styled-components";
 import { theme } from "../../utilities/designtokens";
 
-export const NavbarContainer = styled.nav`
+export const NavbarContainer = styled.nav<{ imageUrl: string }>`
+  background-color: ${theme.colors.primary};
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-image: ${({ imageUrl }) => `url(${imageUrl})`};
   height: 100%;
   color: ${theme.colors.white};
-  padding: ${theme.paddings[48]} ${theme.paddings[120]};
+  padding: ${theme.paddings[6]} ${theme.paddings[120]};
 
   @media screen and ${theme.device.md} {
     padding: ${theme.paddings[40]} ${theme.paddings[20]} ${theme.paddings[13]}
       ${theme.paddings[13]};
   }
 `;
+
 export const NavLogo = styled.h5`
   font-family: "amazing-kids";
   font-weight: ${theme.fonts.weight[400]};
@@ -43,7 +46,7 @@ li{
     padding: ${theme.paddings[16]} 0 ${theme.paddings[12]} ${theme.paddings[16]};
 
     p{
-        font-size:${theme.fonts.size[1]};
+        font-size:${theme.fonts.size[16]};
         font-weight: ${theme.fonts.weight[700]};
        font-family: ${theme.fonts.familiy.satoshi};
        color: #AAC4E6;
@@ -87,11 +90,12 @@ export const HamburgerMenuToggler = styled.div<{ navbarStatus: boolean }>`
 export const MobileMenu = styled.nav`
   display: none;
   background-color: #004db3;
-  text-align:center;
+  text-align: center;
   padding-top: 4rem;
 
   @media screen and ${theme.device.md} {
     display: block;
+    z-index: 1;
     position: absolute;
     top: 0;
     left: 0;
@@ -102,7 +106,7 @@ export const MobileMenu = styled.nav`
       padding: ${theme.paddings[16]} ${theme.paddings[12]};
       p {
         color: ${theme.colors.white};
-        font-size: ${theme.fonts.size[1]};
+        font-size: ${theme.fonts.size[16]};
         font-weight: ${theme.fonts.weight[700]};
         font-family: ${theme.fonts.familiy.satoshi};
       }

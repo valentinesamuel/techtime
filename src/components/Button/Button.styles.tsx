@@ -25,7 +25,7 @@ export const ButtonContainer = styled.button<{
       : `${theme.colors.white}`};
   font-family: ${theme.fonts.familiy.satoshi};
   font-weight: ${theme.fonts.weight[700]};
-  line-height: ${theme.fonts.lineHeight[22]};
+  line-height: ${theme.fonts.lineHeight[10]};
   radius: ${theme.radii[4]};
   border: ${({ role }) =>
     role === "primary"
@@ -35,4 +35,9 @@ export const ButtonContainer = styled.button<{
       : role === "outline"
       ? `.0625rem solid ${theme.colors.white}`
       : "none"};
+
+  @media screen and ${theme.device.md} {
+    padding: ${theme.paddings[8]} ${theme.paddings[16]};
+    font-size: 15px;
+  }
 `;

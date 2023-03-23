@@ -1,5 +1,6 @@
 import { FC, useState } from "react";
 import Button from "../Button/Button.component";
+import Pattern from "../../assets/images/pattern-background.svg";
 import {
   NavbarContainer,
   NavLinks,
@@ -10,9 +11,9 @@ import {
 } from "./Navbar.styles";
 
 const Navbar: FC = () => {
-  const [isNavbarOpen, setIsNavbarOpen] = useState<boolean>(true);
+  const [isNavbarOpen, setIsNavbarOpen] = useState<boolean>(false);
   return (
-    <NavbarContainer>
+    <NavbarContainer imageUrl={Pattern}>
       <NavLogo>TechTime</NavLogo>
       <NavLinks>
         <HamburgerMenuToggler
