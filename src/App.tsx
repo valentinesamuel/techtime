@@ -1,11 +1,12 @@
-import "./App.css";
+import Button from "./components/Button/Button.component";
+import Navbar from "./components/Navbar/Navbar.component";
 
 function App() {
 
   return (
     <div className="App">
-      <p>build your future with our quality education. the best and largest all-in-one online tutoring platform in the world</p>
-      <h1>TechTime</h1>
+      <Navbar />
+     
     </div>
   );
 }
