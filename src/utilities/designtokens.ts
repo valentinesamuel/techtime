@@ -12,6 +12,7 @@ export const theme = {
     secondary: "#004DB3",
     white: "#ffffff",
     lightBlue: "#E7E7E7",
+    lightBlue100: "#CCDBF0",
   },
   fonts: {
     familiy: {
@@ -51,9 +52,11 @@ export const theme = {
     13: ".8125rem",
     16: "1rem",
     20: "1.25rem",
+    22: "1.375rem",
     25: "1.5625rem",
     32: "2rem",
-    40: "40px",
+    40: "2.5rem",
+    52: "3.25rem",
     48: "3rem",
     120: "7.5rem",
   },
