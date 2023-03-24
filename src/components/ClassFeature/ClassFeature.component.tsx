@@ -21,7 +21,7 @@ import {
   Heading,
   PurpleEllipse,
   GreenSquiggle,
-  ClassImageWrapper,
+  Sprinkles,
 } from "./ClassFeature.styles";
 import Button from "../Button/Button.component";
 
@@ -59,21 +59,23 @@ const ClassFeature = (props: Props) => {
             </FeatureTag>
             <FeatureTag>
               <img src={notes} />
-              <p>S0+ Notes</p>
+              <p>50+ Notes</p>
             </FeatureTag>
           </div>
         </FeatureTagContainer>
       </ClassFeatureTextContainer>
       <ClassFeatureImageContainer>
-        <ClassMainImage>
-          <PurpleEllipse src={purpleEllipse} />
-          <GreenSquiggle src={greensquiggle} />
-          <ClassImage src={ClassImg} />
-          <BlueDotCluster src={bluedots} />
-        </ClassMainImage>
+        <ClassImage src={ClassImg} />
       </ClassFeatureImageContainer>
+      <Sprinkles>
+        <PurpleEllipse src={purpleEllipse} />
+        <GreenSquiggle src={greensquiggle} />
+        <BlueDotCluster src={bluedots} />
+      </Sprinkles>
     </ClassFeatureContainer>
   );
 };
+{
+}
 
 export default ClassFeature;

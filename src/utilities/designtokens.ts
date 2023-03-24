@@ -13,6 +13,7 @@ export const theme = {
     white: "#ffffff",
     gray100: "#a2a2a2",
     lightBlue: "#E7E7E7",
+    lightBlue50: "#f8f9fc",
     lightBlue100: "#CCDBF0",
   },
   fonts: {
@@ -62,7 +63,9 @@ export const theme = {
     40: "2.5rem",
     52: "3.25rem",
     48: "3rem",
+    90: "5.625rem",
     120: "7.5rem",
+    166: "10.375rem",
   },
   margins: {
     16: "1rem",
@@ -80,5 +83,6 @@ export const theme = {
   },
   radii: {
     4: ".25rem",
+    8: ".5rem",
   },
 };

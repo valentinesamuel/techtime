@@ -5,19 +5,19 @@ export const ClassFeatureContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #f8f9fc;
+  background: ${theme.colors.lightBlue50};
+  padding: ${theme.paddings[90]} ${theme.paddings[166]};
+  position: relative;
+  overflow-x: hidden;
 `;
 
 export const ClassFeatureTextContainer = styled.div``;
 
 export const ClassFeatureImageContainer = styled.div``;
 
-export const FeatureTagContainer = styled.div`
-  height: match-content; ;
-`;
+export const FeatureTagContainer = styled.div``;
 
 export const Heading = styled.div`
-  // padding-left:10%;
   position: relative;
 
   h3 {
@@ -39,7 +39,7 @@ export const Heading = styled.div`
 export const Description = styled.p`
   width: 37.75rem;
   font-family: ${theme.fonts.familiy.satoshi};
-  font-weight: 500;
+  font-weight: ${theme.fonts.weight[500]};
   font-size: ${theme.fonts.size[16]};
   line-height: ${theme.fonts.lineHeight[28]};
   color: ${theme.colors.gray100};
@@ -54,50 +54,53 @@ export const FeatureTag = styled.div`
   background-color: ${theme.colors.white};
   padding: ${theme.paddings[25]} ${theme.paddings[52]} ${theme.paddings[25]}
     ${theme.paddings[25]};
-  width: fit-content;
+  border-radius: ${theme.radii[8]};
 
   p {
-    font-family: "Satoshi";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
+    font-family: ${theme.fonts.familiy.satoshi};
+    font-weight: ${theme.fonts.weight[700]};
+    font-size: ${theme.fonts.size[16]};
+    line-height: ${theme.fonts.lineHeight[22]};
     text-transform: capitalize;
     margin-left: ${theme.margins[16]};
-    color: #000f24;
   }
 `;
 
 export const ClassMainImage = styled.div`
   position: relative;
-  overflow: hidden;
-  padding-right: 120px;
-`;
-
-export const ClassImageWrapper = styled.div`
-  position: relative;
-  overflow: hidden;
+  width: auto;
 `;
 
 export const ClassImage = styled.img`
-  //   z-index: 3;
+  // max-width: 100%;
+  transform: scale(0.9);
+  position: relative;
+  right: 20%;
+  top: 55px;
+  height: auto;
+  z-index: 2;
 `;
 
 export const PurpleEllipse = styled.img`
   position: absolute;
-  right: -12%;
-  bottom: 10%;
+  bottom: 12%;
+  right: -5%;
 `;
 
 export const BlueDotCluster = styled.img`
   position: absolute;
-  bottom: 2rem;
-  right: 2%;
-  z-index: -1;
+  bottom: 19%;
+  right: 8%;
 `;
 
 export const GreenSquiggle = styled.img`
   position: absolute;
-  right: -5%;
+  right: -2%;
   top: 20%;
+`;
+
+export const Sprinkles = styled.div`
+  height: 100%,
+width: 100%,
+position: absolute,
 `;
