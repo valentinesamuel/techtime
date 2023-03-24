@@ -19,7 +19,7 @@ export const ButtonContainer = styled.button<{
     role === "primary"
       ? "white"
       : role === "secondary"
-      ? `${theme.colors.secondary}`
+      ? `${theme.colors.primary}`
       : role === "outline"
       ? `${theme.colors.white}`
       : `${theme.colors.white}`};

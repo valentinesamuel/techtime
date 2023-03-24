@@ -9,8 +9,9 @@ const size = {
 export const theme = {
   colors: {
     primary: "#004DB3",
-    secondary: "#004DB3",
+    secondary: "#CCDBF0",
     white: "#ffffff",
+    gray100: "#a2a2a2",
     lightBlue: "#E7E7E7",
     lightBlue100: "#CCDBF0",
   },
@@ -32,6 +33,7 @@ export const theme = {
       32: "2rem",
       47: "2.9375rem",
       25: "1.5625rem",
+      56: "3.5rem",
       64: "4rem",
     },
     lineHeight: {
@@ -39,10 +41,12 @@ export const theme = {
       14: ".875rem",
       22: "1.375rem",
       26: "1.625rem",
+      28: "1.75rem",
       30: "1.875rem",
       45: "2.8125rem",
       47: "2.9375rem",
-      82: "82px",
+      70: "4.375rem",
+      82: "5.125rem",
     },
   },
   paddings: {
