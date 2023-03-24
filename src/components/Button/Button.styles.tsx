@@ -26,7 +26,7 @@ export const ButtonContainer = styled.button<{
   font-family: ${theme.fonts.familiy.satoshi};
   font-weight: ${theme.fonts.weight[700]};
   line-height: ${theme.fonts.lineHeight[10]};
-  radius: ${theme.radii[4]};
+  border-radius: ${theme.radii[4]};
   border: ${({ role }) =>
     role === "primary"
       ? "none"
@@ -37,7 +37,7 @@ export const ButtonContainer = styled.button<{
       : "none"};
 
   @media screen and ${theme.device.md} {
-    padding: ${theme.paddings[8]} ${theme.paddings[16]};
+    padding: ${theme.paddings[10]} ${theme.paddings[16]};
     font-size: 15px;
   }
 `;

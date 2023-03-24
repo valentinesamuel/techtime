@@ -29,8 +29,10 @@ export const theme = {
     },
     size: {
       8: ".5rem",
+      12: ".75rem",
       16: "1rem",
       20: "1.25rem",
+      24: "1.5rem",
       32: "2rem",
       47: "2.9375rem",
       25: "1.5625rem",
@@ -53,6 +55,7 @@ export const theme = {
   paddings: {
     6: ".375rem",
     8: ".5rem",
+    10: ".625rem",
     12: ".75rem",
     13: ".8125rem",
     16: "1rem",
@@ -68,6 +71,8 @@ export const theme = {
     166: "10.375rem",
   },
   margins: {
+    8: ".5rem",
+    13: ".8125rem",
     16: "1rem",
     24: "1.5rem",
     32: "2rem",

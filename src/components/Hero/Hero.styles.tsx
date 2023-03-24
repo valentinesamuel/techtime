@@ -10,6 +10,7 @@ export const HeroContainer = styled.div<{ imageUrl: string }>`
     flex-direction: column;
     width: 100%;
     text-align: center;
+    padding:0 22px;
   }
 `;
 

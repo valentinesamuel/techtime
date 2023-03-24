@@ -9,13 +9,31 @@ export const ClassFeatureContainer = styled.div`
   padding: ${theme.paddings[90]} ${theme.paddings[166]};
   position: relative;
   overflow-x: hidden;
+
+  @media screen and ${theme.device.md} {
+    padding: 0 ${theme.paddings[22]};
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
 `;
 
 export const ClassFeatureTextContainer = styled.div``;
 
 export const ClassFeatureImageContainer = styled.div``;
 
-export const FeatureTagContainer = styled.div``;
+export const FeatureTagContainer = styled.div`
+  div {
+    display: flex;
+    margin-top: 1.5rem;
+  }
+  @media screen and ${theme.device.md} {
+    div {
+      justify-content: center;
+      margin-top: 0.75rem;
+    }
+  }
+`;
 
 export const Heading = styled.div`
   position: relative;
@@ -34,6 +52,20 @@ export const Heading = styled.div`
     top: 1.1rem;
     right: 5.4%;
   }
+
+  @media screen and ${theme.device.md} {
+    h3 {
+      width: 100%;
+      font-size: ${theme.fonts.size[24]};
+      line-height: ${theme.fonts.lineHeight[30]};
+      text-transform: capitalize;
+    }
+    img {
+      transform: scale(0.7);
+      left: -45%;
+      top: 1.3rem;
+    }
+  }
 `;
 
 export const Description = styled.p`
@@ -45,6 +77,12 @@ export const Description = styled.p`
   color: ${theme.colors.gray100};
   text-transform: capitalize;
   margin-bottom: ${theme.margins[32]};
+
+  @media screen and ${theme.device.md} {
+    width: 100%;
+    line-height: ${theme.fonts.lineHeight[14]};
+    font-size: ${theme.fonts.size[8]};
+  }
 `;
 
 export const FeatureTag = styled.div`
@@ -64,6 +102,22 @@ export const FeatureTag = styled.div`
     text-transform: capitalize;
     margin-left: ${theme.margins[16]};
   }
+
+  @media screen and ${theme.device.md} {
+    margin-right: ${theme.margins[13]};
+    padding: ${theme.paddings[8]} ${theme.paddings[16]} ${theme.paddings[8]}
+      ${theme.paddings[16]};
+
+    img {
+      transform: scale(0.7);
+    }
+
+    p {
+      margin-left: ${theme.margins[8]};
+      font-size: ${theme.fonts.size[8]};
+      line-height: ${theme.fonts.lineHeight[10]};
+    }
+  }
 `;
 
 export const ClassMainImage = styled.div`
@@ -72,31 +126,51 @@ export const ClassMainImage = styled.div`
 `;
 
 export const ClassImage = styled.img`
-  // max-width: 100%;
   transform: scale(0.9);
   position: relative;
   right: 20%;
   top: 55px;
   height: auto;
   z-index: 2;
+
+  @media screen and ${theme.device.md} {
+    max-width: 100%;
+    transform: scale(1);
+    right: 0%;
+    top: 30px;
+  }
 `;
 
 export const PurpleEllipse = styled.img`
   position: absolute;
   bottom: 12%;
   right: -5%;
+
+  @media screen and ${theme.device.md} {
+    transform: scale(0.6);
+    right: -29%;
+  }
 `;
 
 export const BlueDotCluster = styled.img`
   position: absolute;
   bottom: 19%;
   right: 8%;
+
+  @media screen and ${theme.device.md} {
+    transform: scale(0.3);
+    bottom: -12%;
+    right: -13%;
+  }
 `;
 
 export const GreenSquiggle = styled.img`
   position: absolute;
-  right: -2%;
-  top: 20%;
+  right: -9%;
+  top: 40%;
+  @media screen and ${theme.device.md} {
+    transform: scale(0.7);
+  }
 `;
 
 export const Sprinkles = styled.div`

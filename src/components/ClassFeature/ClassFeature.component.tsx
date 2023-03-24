@@ -42,7 +42,7 @@ const ClassFeature = (props: Props) => {
         </Description>
         <Button role="primary">View Courses</Button>
         <FeatureTagContainer>
-          <div style={{ display: "flex", marginTop: "1.5rem" }}>
+          <div>
             <FeatureTag>
               <img src={audio} />
               <p>Audio Classes</p>
@@ -52,7 +52,7 @@ const ClassFeature = (props: Props) => {
               <p>Live Classes</p>
             </FeatureTag>
           </div>
-          <div style={{ display: "flex", marginTop: "1.5rem" }}>
+          <div>
             <FeatureTag>
               <img src={record} />
               <p>Recorded Classes</p>
