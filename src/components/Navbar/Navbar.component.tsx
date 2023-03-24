@@ -42,7 +42,7 @@ const Navbar: FC = () => {
             <p>Community</p>
           </li>
           <li>
-            <Button role="primary">Enroll Now</Button>
+            <Button role="secondary">Enroll Now</Button>
           </li>
         </DesktopMenu>
       </NavLinks>
