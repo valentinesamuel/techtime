@@ -50,7 +50,7 @@ export const Description = styled.p`
 export const FeatureTag = styled.div`
   display: flex;
   align-items: center;
-margin-right: ${theme.margins[24]};
+  margin-right: ${theme.margins[24]};
   background-color: ${theme.colors.white};
   padding: ${theme.paddings[25]} ${theme.paddings[52]} ${theme.paddings[25]}
     ${theme.paddings[25]};
@@ -68,12 +68,36 @@ margin-right: ${theme.margins[24]};
   }
 `;
 
-export const ClassMainImage = styled.div``;
+export const ClassMainImage = styled.div`
+  position: relative;
+  overflow: hidden;
+  padding-right: 120px;
+`;
 
-export const ClassImage = styled.img``;
+export const ClassImageWrapper = styled.div`
+  position: relative;
+  overflow: hidden;
+`;
 
-export const PurpleEllipse = styled.img``;
+export const ClassImage = styled.img`
+  //   z-index: 3;
+`;
 
-export const BlueDotCluster = styled.img``;
+export const PurpleEllipse = styled.img`
+  position: absolute;
+  right: -12%;
+  bottom: 10%;
+`;
 
-export const GreenSquiggle = styled.img``;
+export const BlueDotCluster = styled.img`
+  position: absolute;
+  bottom: 2rem;
+  right: 2%;
+  z-index: -1;
+`;
+
+export const GreenSquiggle = styled.img`
+  position: absolute;
+  right: -5%;
+  top: 20%;
+`;

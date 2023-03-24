@@ -21,6 +21,7 @@ import {
   Heading,
   PurpleEllipse,
   GreenSquiggle,
+  ClassImageWrapper,
 } from "./ClassFeature.styles";
 import Button from "../Button/Button.component";
 
@@ -65,9 +66,9 @@ const ClassFeature = (props: Props) => {
       </ClassFeatureTextContainer>
       <ClassFeatureImageContainer>
         <ClassMainImage>
-          <ClassImage src={ClassImg} />
           <PurpleEllipse src={purpleEllipse} />
           <GreenSquiggle src={greensquiggle} />
+          <ClassImage src={ClassImg} />
           <BlueDotCluster src={bluedots} />
         </ClassMainImage>
       </ClassFeatureImageContainer>
