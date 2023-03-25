@@ -5,6 +5,7 @@ import {
   TestimonyHeading,
   TestimonySliderContainer,
 } from "./Testimony.styles";
+import TestimonyCard from "./TestimonyCard/TestimonyCard.component";
 
 type Props = {};
 
@@ -17,7 +18,9 @@ const Testimony = (props: Props) => {
         standard definition. while there’s no standard meaning for high
         definition, generally any standard video image
       </TestimonyDescription>
-      <TestimonySliderContainer></TestimonySliderContainer>
+      <TestimonySliderContainer>
+        <TestimonyCard />
+      </TestimonySliderContainer>
     </TestimonyContainer>
   );
 };

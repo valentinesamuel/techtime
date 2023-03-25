@@ -8,12 +8,14 @@ import {
   JoinCommunityImage,
   JoinCommunitySubTitle,
 } from "./JoinComponent.styles";
+import Pattern from "../../assets/images/pattern-background.svg";
+
 
 type Props = {};
 
 const JoinCommunity = (props: Props) => {
   return (
-    <JoinCommunityContainer>
+    <JoinCommunityContainer imageUrl={Pattern}>
       <JoinCommunitySubTitle>Join our community</JoinCommunitySubTitle>
       <JoinCommunityHeading>
         Are you ready to connect with the future talent of the tech world

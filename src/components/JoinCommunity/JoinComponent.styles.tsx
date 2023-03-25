@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { theme } from "../../utilities/designtokens";
 
-export const JoinCommunityContainer = styled.div`
+export const JoinCommunityContainer = styled.div<{ imageUrl: string }>`
   background-color: ${theme.colors.primary};
   display: flex;
   flex-direction: column;
@@ -9,7 +9,8 @@ export const JoinCommunityContainer = styled.div`
   align-items: center;
   color: ${theme.colors.white};
   padding: 86px 0 96px 0;
-
+  background-image: ${({ imageUrl }) => `url(${imageUrl})`};
+  
   @media screen and ${theme.device.md} {
     padding: 40px 26px;
   }

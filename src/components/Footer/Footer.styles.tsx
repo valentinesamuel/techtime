@@ -46,25 +46,33 @@ export const Socials = styled.div`
   @media screen and ${theme.device.md} {
     margin-bottom: 50px;
   }
-`;
-
-export const Links = styled.div`
-  margin-top: 34px;
-  h5 {
-    font-family: ${theme.fonts.familiy.clashdisplay};
-    font-size: ${theme.fonts.size[32]};
-    font-weight: ${theme.fonts.weight[500]};
-    line-height: ${theme.fonts.lineHeight[30]};
-    margin-bottom: 32px;
-  }
-  p {
-    font-family: ${theme.fonts.familiy.satoshi};
-    font-size: ${theme.fonts.size[24]};
-    font-weight: ${theme.fonts.weight[400]};
-    line-height: ${theme.fonts.lineHeight[30]};
-    margin-bottom: 30px;
-  }
-`;
+  `;
+  
+  export const Links = styled.div`
+    margin-top: 34px;
+    h5 {
+      font-family: ${theme.fonts.familiy.clashdisplay};
+      font-size: ${theme.fonts.size[32]};
+      font-weight: ${theme.fonts.weight[500]};
+      line-height: ${theme.fonts.lineHeight[30]};
+      margin-bottom: 32px;
+      @media screen and ${theme.device.md} {
+        font-size: 24px;
+        line-height: 30px;
+      }
+    }
+    p {
+      font-family: ${theme.fonts.familiy.satoshi};
+      font-size: ${theme.fonts.size[24]};
+      font-weight: ${theme.fonts.weight[400]};
+      line-height: ${theme.fonts.lineHeight[30]};
+      margin-bottom: 30px;
+      @media screen and ${theme.device.md} {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+  `;
 
 export const Subscribe = styled.div`
   h5 {
@@ -77,12 +85,12 @@ export const Subscribe = styled.div`
 
   .input {
     input {
-      padding: 16px 120px 16px 21px;
+      padding: 16px 100px 16px 21px;
       background-color: #2A2A2B ;
       color: #424141;
        1px solid #054FB3;
        border:none;
-       height:100%;
+      //  height:100%;
     }
     button {
       border: none;

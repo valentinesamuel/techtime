@@ -160,7 +160,7 @@ export const BlueDotCluster = styled.img`
 
   @media screen and ${theme.device.md} {
     transform: scale(0.3);
-    bottom: -3%;
+    bottom: -5%;
     right: -13%;
   }
 `;

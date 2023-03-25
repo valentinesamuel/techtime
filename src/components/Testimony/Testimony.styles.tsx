@@ -47,6 +47,6 @@ export const TestimonyDescription = styled.p`
 export const TestimonySliderContainer = styled.div`
   height: 300px;
   width: 100%;
-  background-color: brown;
   margin-bottom: 30px;
 `;
+

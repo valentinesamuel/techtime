@@ -89,7 +89,7 @@ export const HamburgerMenuToggler = styled.div<{ navbarStatus: boolean }>`
 
 export const MobileMenu = styled.nav`
   display: none;
-  background-color: #004db3;
+  background-color: #468ae2;
   text-align: center;
   padding-top: 4rem;
 
