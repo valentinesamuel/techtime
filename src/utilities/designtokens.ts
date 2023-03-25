@@ -66,6 +66,7 @@ export const theme = {
     40: "2.5rem",
     52: "3.25rem",
     48: "3rem",
+    60: "3.75rem",
     90: "5.625rem",
     120: "7.5rem",
     166: "10.375rem",
@@ -89,5 +90,7 @@ export const theme = {
   radii: {
     4: ".25rem",
     8: ".5rem",
+    30: "1.875rem",
+
   },
 };

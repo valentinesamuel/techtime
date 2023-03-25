@@ -15,6 +15,7 @@ export const ClassFeatureContainer = styled.div`
     text-align: center;
     flex-direction: column;
     overflow: hidden;
+    padding-bottom:${theme.paddings[40]};
   }
 `;
 
@@ -159,7 +160,7 @@ export const BlueDotCluster = styled.img`
 
   @media screen and ${theme.device.md} {
     transform: scale(0.3);
-    bottom: -12%;
+    bottom: -3%;
     right: -13%;
   }
 `;
