@@ -14,16 +14,15 @@ import {
   ClassFeatureImageContainer,
   ClassFeatureTextContainer,
   ClassImage,
-  ClassMainImage,
   Description,
   FeatureTag,
   FeatureTagContainer,
   Heading,
   PurpleEllipse,
   GreenSquiggle,
-  Sprinkles,
 } from "./ClassFeature.styles";
 import Button from "../Button/Button.component";
+import { Sprinkle } from "../Sprinkles/Sprinkles.styles";
 
 type Props = {};
 
@@ -67,11 +66,11 @@ const ClassFeature = (props: Props) => {
       <ClassFeatureImageContainer>
         <ClassImage src={ClassImg} />
       </ClassFeatureImageContainer>
-      <Sprinkles>
+      <Sprinkle>
         <PurpleEllipse src={purpleEllipse} />
         <GreenSquiggle src={greensquiggle} />
         <BlueDotCluster src={bluedots} />
-      </Sprinkles>
+      </Sprinkle>
     </ClassFeatureContainer>
   );
 };

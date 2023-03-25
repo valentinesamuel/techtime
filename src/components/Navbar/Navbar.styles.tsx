@@ -9,7 +9,7 @@ export const NavbarContainer = styled.nav<{ imageUrl: string }>`
   background-image: ${({ imageUrl }) => `url(${imageUrl})`};
   height: 100%;
   color: ${theme.colors.white};
-  padding: ${theme.paddings[6]} ${theme.paddings[120]};
+  padding: ${theme.paddings[40]} ${theme.paddings[120]};
 
   @media screen and ${theme.device.md} {
     padding: ${theme.paddings[40]} ${theme.paddings[20]} ${theme.paddings[13]}

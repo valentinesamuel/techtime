@@ -17,7 +17,7 @@ import {
   GreenTriangle,
   Heading,
   PurpleCircle,
-  Sprinkles,
+  FeatureSprinkles,
   TextContainer,
   YellowDot,
   YellowSquiggle,
@@ -64,7 +64,7 @@ const Features = (props: Props) => {
           <p>
             high-defination video is video of higher resolution and quality than
             standard definition. high-defination video is video of higher
-            resolution and quality than standard definition.{" "}
+            resolution and quality than standard definition.
           </p>
         </Card>
         <Card>
@@ -73,16 +73,16 @@ const Features = (props: Props) => {
           <p>
             high-defination video is video of higher resolution and quality than
             standard definition. high-defination video is video of higher
-            resolution and quality than standard definition.{" "}
+            resolution and quality than standard definition.
           </p>
         </Card>
       </CardsContainer>
-      <Sprinkles>
+      <FeatureSprinkles>
         <YellowSquiggle src={yellowSquiggle} />
         <YellowDot src={yellowDot} />
         <PurpleCircle src={purpleCirle} />
         <GreenTriangle src={greenTriangle} />
-      </Sprinkles>
+      </FeatureSprinkles>
     </FeaturesContainer>
   );
 };

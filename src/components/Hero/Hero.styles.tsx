@@ -30,7 +30,7 @@ export const Heading = styled.h1`
   font-weight: ${theme.fonts.weight[700]};
   font-family: ${theme.fonts.familiy.clashdisplay};
   line-height: ${theme.fonts.lineHeight[82]};
-  width: 898px;
+  width: 698px;
   color: ${theme.colors.white};
   margin-bottom: ${theme.margins[16]};
 

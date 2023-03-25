@@ -15,7 +15,7 @@ export const ClassFeatureContainer = styled.div`
     text-align: center;
     flex-direction: column;
     overflow: hidden;
-    padding-bottom:${theme.paddings[40]};
+    padding-bottom: ${theme.paddings[40]};
   }
 `;
 
@@ -129,7 +129,7 @@ export const ClassMainImage = styled.div`
 export const ClassImage = styled.img`
   transform: scale(0.9);
   position: relative;
-  right: 20%;
+  right: 10%;
   top: 55px;
   height: auto;
   z-index: 2;
@@ -145,18 +145,18 @@ export const ClassImage = styled.img`
 export const PurpleEllipse = styled.img`
   position: absolute;
   bottom: 12%;
-  right: -5%;
+  right: 3%;
 
   @media screen and ${theme.device.md} {
     transform: scale(0.6);
-    right: -29%;
+    right: -27%;
   }
 `;
 
 export const BlueDotCluster = styled.img`
   position: absolute;
-  bottom: 19%;
-  right: 8%;
+  bottom: 15%;
+  right: 19%;
 
   @media screen and ${theme.device.md} {
     transform: scale(0.3);
@@ -167,15 +167,11 @@ export const BlueDotCluster = styled.img`
 
 export const GreenSquiggle = styled.img`
   position: absolute;
-  right: -9%;
-  top: 40%;
+  left: 88%;
+  top: 10%;
   @media screen and ${theme.device.md} {
     transform: scale(0.7);
+    left: 88%;
+    top: 30%;
   }
-`;
-
-export const Sprinkles = styled.div`
-  height: 100%,
-width: 100%,
-position: absolute,
 `;

@@ -38,6 +38,6 @@ export const ButtonContainer = styled.button<{
 
   @media screen and ${theme.device.md} {
     padding: ${theme.paddings[10]} ${theme.paddings[16]};
-    font-size: 15px;
+    font-size: 8px;
   }
 `;

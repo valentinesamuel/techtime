@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { theme } from "../../utilities/designtokens";
+import Sprinkles from "../Sprinkles/Sprinkles.component";
 
 export const FeaturesContainer = styled.div`
   display: flex;
@@ -8,11 +9,11 @@ export const FeaturesContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: ${theme.paddings[60]} ${theme.paddings[120]};
-  overflow-x: hidden;
+  overflow: hidden;
 
   @media screen and ${theme.device.md} {
     flex-direction: column;
-    padding: 0 ${theme.paddings[22]};
+    padding: 40px ${theme.paddings[22]};
   }
 `;
 
@@ -76,7 +77,6 @@ export const FeatureImage = styled.div`
 `;
 
 export const Card = styled.div`
-  //   max-width: 400px;
   padding: 24px;
   background-color: ${theme.colors.white};
   height: max-content;
@@ -126,11 +126,9 @@ export const Card = styled.div`
   }
 `;
 
-export const Sprinkles = styled.div`
+export const FeatureSprinkles = styled.div`
   height: 100%;
-  width: fit-content;
   position: absolute;
-
   @media screen and ${theme.device.md} {
     // display: none;
   }
@@ -147,10 +145,10 @@ export const YellowSquiggle = styled.img`
 export const PurpleCircle = styled.img`
   position: absolute;
   bottom: 6%;
-  left: 84.5rem;
-  @media screen and ${theme.device.md} {
+  left:106.5rem;
+   @media screen and ${theme.device.md} {
     transform: scale(0.4);
-    left: 9.5rem;
+    left: 11.53rem;
     bottom: 30%;
   }
 `;
@@ -165,11 +163,10 @@ export const YellowDot = styled.img`
 export const GreenTriangle = styled.img`
   position: absolute;
   bottom: 20%;
-  left: -140%;
+  left: -150%;
   @media screen and ${theme.device.md} {
     transform: scale(0.4);
-    left: -11rem;
+    left: -14rem;
     bottom: 7%;
   }
 `;
-1;
