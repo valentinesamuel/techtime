@@ -7,6 +7,7 @@ padding:32px 24px;
 background-color: ${theme.colors.white};
 border-radius: 24px;
  width:min-content;
+margin:0 15px;
 
 .testimony {
     width: 34.6875rem;

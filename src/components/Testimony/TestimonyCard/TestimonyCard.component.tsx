@@ -1,7 +1,7 @@
 import { TestimonyCardContainer } from "./TestimonyCard.styles";
 type Props = {}
 
-const TestimonyCard = (props:Props) => {
+const   TestimonyCard = (props:Props) => {
   return (
     <TestimonyCardContainer>
       <p className="testimony">

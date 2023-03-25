@@ -1,11 +1,9 @@
-import React from "react";
+import Carousel from "./Carousel/Carousel.component";
 import {
   TestimonyContainer,
   TestimonyDescription,
   TestimonyHeading,
-  TestimonySliderContainer,
 } from "./Testimony.styles";
-import TestimonyCard from "./TestimonyCard/TestimonyCard.component";
 
 type Props = {};
 
@@ -18,9 +16,7 @@ const Testimony = (props: Props) => {
         standard definition. while there’s no standard meaning for high
         definition, generally any standard video image
       </TestimonyDescription>
-      <TestimonySliderContainer>
-        <TestimonyCard />
-      </TestimonySliderContainer>
+      <Carousel></Carousel>
     </TestimonyContainer>
   );
 };

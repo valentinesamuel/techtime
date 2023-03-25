@@ -7,6 +7,7 @@ export const TestimonyContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   background-color: ${theme.colors.lightBlue50};
+  padding-bottom:25px;
 `;
 
 export const TestimonyHeading = styled.h2`
@@ -47,6 +48,6 @@ export const TestimonyDescription = styled.p`
 export const TestimonySliderContainer = styled.div`
   height: 300px;
   width: 100%;
-  margin-bottom: 30px;
+  // margin-bottom: 50px;
+  overflow:hidden;
 `;
-
