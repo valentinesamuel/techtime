@@ -8,6 +8,7 @@ import {
   YellowSquiggle,
 } from "./Questions.styles";
 import yellowsquiggle from "../../assets/images/yellow-squiggle.svg";
+import AccordionComponent from "./Accordion/AccordionComponent.component";
 
 type Props = {};
 
@@ -23,7 +24,7 @@ const Questions = (props: Props) => {
         standard definition. while there’s no standard meaning for high
         definition, generally any standard video image
       </QuestionsDescription>
-      <AccordionContainer></AccordionContainer>
+     <AccordionComponent/>
     </QuestionsContainer>
   );
 };

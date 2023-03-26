@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { theme } from "../../utilities/designtokens";
-import Sprinkles from "../Sprinkles/Sprinkles.component";
 //   @media screen and ${theme.device.md} {}
 
 export const QuestionsContainer = styled.div`
@@ -42,6 +41,8 @@ export const QuestionsDescription = styled.p`
 `;
 
 export const AccordionContainer = styled.div``;
+
+
 
 export const QuestionSprinkles = styled.div`
   height: 100%;

@@ -104,7 +104,7 @@ export const GreenCirle = styled.img`
 export const BlueSquiggle = styled.img`
   position: absolute;
   top: 43%;
-  left: -160px;
+  left: -130px;
 `;
 
 export const YellowCircle = styled.img`
