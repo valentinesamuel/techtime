@@ -19,6 +19,7 @@ export const QuestionsHeader = styled.h3`
   @media screen and ${theme.device.md} {
     font-size: ${theme.fonts.size[24]};
     line-height: ${theme.fonts.lineHeight[28]};
+    padding-top: 40px;
   }
 `;
 
@@ -35,14 +36,13 @@ export const QuestionsDescription = styled.p`
 
   @media screen and ${theme.device.md} {
     font-size: ${theme.fonts.size[8]};
-    width: auto;
+    width: 290px;
     line-height: ${theme.fonts.lineHeight[16]};
+    padding-bottom: 24px;
   }
 `;
 
 export const AccordionContainer = styled.div``;
-
-
 
 export const QuestionSprinkles = styled.div`
   height: 100%;
@@ -58,7 +58,7 @@ export const YellowSquiggle = styled.img`
   top: 9rem;
   left: -1%;
   @media screen and ${theme.device.md} {
-    transform: scale(0.6);
-    left: -6%;
+    transform: scale(0.4);
+    left: -8%;
   }
 `;

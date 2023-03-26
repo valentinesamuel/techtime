@@ -167,6 +167,6 @@ export const GreenTriangle = styled.img`
   @media screen and ${theme.device.md} {
     transform: scale(0.4);
     left: -14rem;
-    bottom: 7%;
+    bottom: 20%;
   }
 `;
