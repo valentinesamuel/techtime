@@ -32,37 +32,35 @@ The project was built with the followind technologies.
 ## Installation
 This project was dockerized, there for you can choose to run it locally or in a docker container
 
-Clone the github repository
+- Clone the github repository
 
 `git clone https://github.com/valentinesamuel/techtime`
 
-Enter into the project's root directory
+- Enter into the project's root directory
 
 `cd techtime`
 
 _This project can be run on your local computer and also in a docker container. Follow the steps below depending on your choice._
 
 ### To run locally
-a. Install all the dependencies
+- Install all the dependencies
 
 `npm install`
 
-b. Run the application on localhost
+- Run the application on localhost
 
 `npm run dev`
 
 ### To run in a docker container
-a. Pull the image from the author's docker repository. (Skip this step if you want to build the docker image yourself)
+- Pull the image from the author's docker repository. (Skip this step if you want to build the docker image yourself). This will pull the docker image so that you can run it in a container instead of your local computer.
 
 `docker pull valentinesamuel/techtime:1.0.0`
 
-This will pull the docker image so that you can run it in a container instead of your local computer.
-
-b. Build the docker image. (Skip this step if you pulled the image from the author's repository)
+- Build the docker image. (Skip this step if you pulled the image from the author's repository)
 
 `docker build -t valentinesamuel/techtime:1.0.0 .`
 
-c. Run the docker container in the background and print the container ID, remove the container when it exits.
+- Run the docker container in the background and print the container ID, remove the container when it exits.
 
 `docker run -d --rm -p 5173:5173 valentinesamuel/techtime:1.0.0`
 
