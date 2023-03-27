@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "testimony": "TechTime is an amazing platform for tech enthusiasts like myself. I've been using it for a few months now and I'm blown away by the quality of the content. The courses are comprehensive, easy to follow, and cover a wide range of topics. What I love the most about TechTime is the community of learners and instructors who are passionate about tech and always ready to help. Highly recommend!",
+        "image": "https://images.unsplash.com/photo-1573496358961-3c82861ab8f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhlYWRzaG90fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Bella Moon",
+        "designation": "Product Designer"
+    },
+    {
+        "id": 2,
+        "testimony": "I've tried a few online learning platforms in the past, but TechTime stands out for its quality and affordability. The instructors are knowledgeable, the content is up-to-date, and the user experience is seamless. I've learned so much from TechTime and can't wait to keep going. If you're a tech enthusiast, this is the platform you've been looking for!",
+        "image": "https://images.unsplash.com/photo-1629425733761-caae3b5f2e50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGhlYWRzaG90fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Jack Stuble",
+        "designation": "Engineering Manager"
+    },
+    {
+        "id": 3,
+        "testimony": "I was hesitant to try yet another online learning platform, but TechTime exceeded my expectations. The courses are practical and relevant, and the instructors are responsive and engaging. What's great about TechTime is that it caters to different learning styles, with video-based, text-based, and interactive courses available. The community is also supportive and active, providing a great learning experience overall.",
+        "image": "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGhlYWRzaG90fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Carl Larson",
+        "designation": "Principal Engineer"
+    },
+    {
+        "id": 4,
+        "testimony": "TechTime has been a game-changer for me in terms of career growth. The platform offers a wide range of courses that are tailored to the needs of tech professionals, covering the latest trends and technologies. I've been able to upskill and improve my resume thanks to TechTime, and I'm grateful for this platform. If you're serious about your career in tech, give TechTime a try.",
+        "image": "https://images.unsplash.com/photo-1614644147798-f8c0fc9da7f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhlYWRzaG90fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Lettie Schneider",
+        "designation": "UX Designer"
+    },
+    {
+        "id": 5,
+        "testimony": "As someone who works in tech, I'm always looking for ways to stay ahead of the curve. TechTime offers courses that are not only relevant and informative but also challenging and practical. The instructors are experts in their respective fields, and the platform is easy to use. I highly recommend TechTime to anyone who wants to keep up with the fast-paced world of tech.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhlYWRzaG90fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Mathilda Fields",
+        "designation": "Information Architect"
+    },
+    {
+        "id": 6,
+        "testimony": "TechTime is hands-down the best online learning platform I've used. The quality of the courses is exceptional, and the instructors are passionate about what they teach. The platform is user-friendly, and the support team is always ready to assist. The community is also active and supportive, providing a great learning experience. If you want to level up your skills, TechTime is the way to go.",
+        "image": "https://images.unsplash.com/photo-1573497161161-c3e73707e25c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGhlYWRzaG90fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Bettie Kim",
+        "designation": "Frontend Enginner"
+    },
+    {
+        "id": 7,
+        "testimony": "I've recommended TechTime to all my tech-savvy friends and colleagues, and they've all been impressed by the quality of the courses. TechTime offers courses that are practical, relevant, and up-to-date. The instructors are knowledgeable, and the platform is easy to navigate. What sets TechTime apart from other platforms is the community, which is active and engaged. If you want to learn from the best and connect with like-minded individuals, TechTime is the platform for you.",
+        "image": "https://images.unsplash.com/photo-1606335192038-f5a05f761b3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGhlYWRzaG90fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Keith Horton",
+        "designation": "Cloud Enginner"
+    },
+    {
+        "id": 8,
+        "testimony": "echTime has helped me take my career to the next level. The platform offers courses that are specifically tailored to the needs of tech professionals, covering a wide range of topics. What's great about TechTime is that the courses are self-paced, so I can learn at my own speed. The instructors are responsive and knowledgeable, and the community is supportive. I highly recommend TechTime to anyone who wants to upskill and advance their career in tech.",
+        "image": "https://images.unsplash.com/photo-1642792735536-b6f7ef18b918?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGhlYWRzaG90fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Lloyd Carpenter",
+        "designation": "Devops Engineer"
+    }
+]

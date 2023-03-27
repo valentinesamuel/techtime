@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "category": "Design",
+        "title": "Introduction to user research in UX Design",
+        "duration": {
+            "time": "23hrs 50mins",
+            "lessons": 15
+        },
+        "author": {
+            "name": "Leonard Victor",
+            "image": "https://images.unsplash.com/photo-1586240554361-60098eb15870?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        "courseImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fG91dHJvb20lMjBtYXJrZXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "price": 25.00,
+        "rating": 4.7,
+        "students": "32.7+"
+    },
+    {
+        "id": 2,
+        "category": "Marketing",
+        "title": "Introduction to new marketing audience",
+        "duration": {
+            "time": "22hrs 30mins",
+            "lessons": 22
+        },
+        "author": {
+            "name": "Jeffrey Williams",
+            "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhlYWRzaG90JTIwcHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        "courseImage": "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFya2V0aW5nJTIwYXVkaWVuY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "price": 32.00,
+        "rating": 4.7,
+        "students": "8.7+"
+    },
+    {
+        "id": 3,
+        "category": "Development",
+        "title": "Introduction to HTML, CSS & Bootsrap",
+        "duration": {
+            "time": "45hrs 50mins",
+            "lessons": 55
+        },
+        "author": {
+            "name": "Claretta Mason",
+            "image": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhlYWRzaG90JTIwcHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        "courseImage": "https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "price": 55.00,
+        "rating": 4.7,
+        "students": "12.7+"
+    },
+    {
+        "id": 4,
+        "category": "Development",
+        "title": "Introduction to Javascript, Git & Github",
+        "duration": {
+            "time": "30hrs 50mins",
+            "lessons": 22
+        },
+        "author": {
+            "name": "Jessica Duke",
+            "image": "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGhlYWRzaG90JTIwcHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        "courseImage": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODd8fGNvZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "price": 45.00,
+        "rating": 4.7,
+        "students": "32.7+"
+    },
+    {
+        "id":5,
+        "category": "Marketing",
+        "title": "Introduction to outroom marketing analysis",
+        "duration": {
+            "time": "33hrs 50mins",
+            "lessons": 26
+        },
+        "author": {
+            "name": "Samuel Jacobs",
+            "image": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGVhZHNob3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        },
+        "courseImage": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1lZXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "price": 25.00,
+        "rating": 4.7,
+        "students": "4.7+"
+    },
+    {
+        "id": 6,
+        "category": "Marketing",
+        "title": "Introduction to live  marketing analysis",
+        "duration": {
+            "time": "10hrs 50mins",
+            "lessons": 32
+        },
+        "author": {
+            "name": "Adam Smith",
+            "image": "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGhlYWRzaG90fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        "courseImage": "https://images.unsplash.com/photo-1542744173-05336fcc7ad4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "price": 25.00,
+        "rating": 4.7,
+        "students": "15.7+"
+    }
+]

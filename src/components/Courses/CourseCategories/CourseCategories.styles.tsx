@@ -59,7 +59,7 @@ export const CourseCardContainer = styled.div`
   width: 100%;
   max-width: 100%;
   place-content: center;
-  place-itens: center;
+  place-items: center;
   padding: 56px 0 40px 0;
 
   @media screen and ${theme.device.lg} {

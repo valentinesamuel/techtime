@@ -14,39 +14,56 @@ import book from "../../../assets/images/book.svg";
 import smallbook from "../../../assets/images/small-book.svg";
 import smallstar from "../../../assets/images/small-star.svg";
 
-type Props = {};
+type Props = {
+  id?:number,
+  category: string;
+  title: string;
+  duration: {
+    time: string;
+    lessons: number;
+  };
+  author: {
+    name: string;
+    image: string;
+  };
+  courseImage: string;
+  price: number;
+  rating: number;
+  students: string;
+};
 
 const CourseCard = (props: Props) => {
   return (
     <CardContainer>
-      <CourseImage src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" />
+      <CourseImage src={props.courseImage} />
       <Tags>
         <div className="tag">
-          <p>Design</p>
+          <p>{props.category}</p>
         </div>
         <div className="rating">
-          <p>4.7k</p> <CourseLengthImages imgUrl={star} smallimg={smallstar} />
-          <p>(32.7k+)</p>
+          <p>{props.rating}</p>
+          <CourseLengthImages imgUrl={star} smallimg={smallstar} />
+          <p>({props.students})</p>
         </div>
       </Tags>
-      <CourseTitle>Introduction to user research in UX Design</CourseTitle>
+      <CourseTitle>{props.title}</CourseTitle>
       <CourseLength>
         <div className="duration">
           <CourseLengthImages imgUrl={time} smallimg={smalltime} />
-          <p>23hrs 50 mins</p>
+          <p>{props.duration.time}</p>
         </div>
         <div className="lessons">
           <CourseLengthImages imgUrl={book} smallimg={smallbook} />
-          <p>15 Lessons</p>
+          <p>{props.duration.lessons} Lessons</p>
         </div>
       </CourseLength>
       <CourseInstructor>
         <div className="instructor">
-          <img src="https://images.unsplash.com/photo-1679690029578-547c6807cbd0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" />
-          <p>Leonard Victor</p>
+          <img src={props.author.image} />
+          <p>{props.author.name}</p>
         </div>
         <div className="price">
-          <p>$15.00</p>
+          <p>${props.price}</p>
         </div>
       </CourseInstructor>
     </CardContainer>

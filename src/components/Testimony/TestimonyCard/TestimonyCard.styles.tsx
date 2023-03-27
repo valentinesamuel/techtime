@@ -30,6 +30,7 @@ margin:0 15px;
       width: 48px;
       border-radius:50%;
       height: 48px;
+      object-fit:cover;
       margin-right:2px;
     }
 

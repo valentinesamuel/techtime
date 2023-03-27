@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "category": "all",
+        "name": "All Categories"
+    },
+    {
+        "id": 2,
+        "category": "design",
+        "name": "Design"
+    },
+    {
+        "id": 3,
+        "category": "development",
+        "name": "Development"
+    },
+    {
+        "id": 4,
+        "category": "marketing",
+        "name": "Marketing"
+    }
+]

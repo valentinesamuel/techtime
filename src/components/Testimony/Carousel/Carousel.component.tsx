@@ -1,14 +1,14 @@
 import { useState } from "react";
 import SimpleCarousel from "react-simply-carousel";
 import TestimonyCard from "../TestimonyCard/TestimonyCard.component";
-
+import testimonies from "./Testimony.json";
 type Props = {};
 
 const Carousel = (props: Props) => {
   const [activeSlide, setActiveSlide] = useState(0);
 
   return (
-      <SimpleCarousel 
+    <SimpleCarousel
       containerProps={{
         style: {
           width: "100%",
@@ -37,6 +37,7 @@ const Carousel = (props: Props) => {
       }}
       dotsNav={{
         show: true,
+        
         itemBtnProps: {
           style: {
             height: 10,
@@ -60,17 +61,19 @@ const Carousel = (props: Props) => {
         },
       }}
       itemsToShow={4}
-          speed={10}
-          
+      speed={10}
     >
-      <TestimonyCard />
-      <TestimonyCard />
-      <TestimonyCard />
-      <TestimonyCard />
-      <TestimonyCard />
-      <TestimonyCard />
-      <TestimonyCard />
-      <TestimonyCard />
+      {testimonies.map((testimony) => {
+        return (
+          <TestimonyCard
+            key={testimony.id}
+            designation={testimony.designation}
+            image={testimony.image}
+            name={testimony.name}
+            testimony={testimony.testimony}
+          />
+        );
+      })}
     </SimpleCarousel>
   );
 };
