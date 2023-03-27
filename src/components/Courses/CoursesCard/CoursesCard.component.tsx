@@ -63,7 +63,7 @@ const CourseCard = (props: Props) => {
           <p>{props.author.name}</p>
         </div>
         <div className="price">
-          <p>${props.price}</p>
+          <p>${props.price}.00</p>
         </div>
       </CourseInstructor>
     </CardContainer>

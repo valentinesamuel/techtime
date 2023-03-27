@@ -1,13 +1,3 @@
-___
-Record a demo video (max 8 minutes) showcasing the landing page and Docker setup
-- cloone the repo and cd into it
-- install the packages
-- Run it locally
-Dockerization (build it)
-- build dockerfile or skip if you want to run from my docker repo
-- pull the docker file if you didn't build it
-- run the docker file
-___
 # Techtime
 ### Table of Content
 - [Project Description](#project-description)
@@ -19,6 +9,8 @@ ___
 
 ## Project Description
 This project is a landing page of an e-learning platform called TechTime that was built in fulfillment of the vetting process for the TalentPlus Frontend Developer role.
+
+Demo Video [Here](https://youtu.be/pi4JwY6yP8U)
 
 
 ## Technologies
@@ -69,4 +61,4 @@ To display this application, open your browser and paste the following url in th
 If you have followed the above stes, you should see the application beautifully running in your browser
 
 TLDR:
-Watch the video
+Watch the video on [youtube](https://youtu.be/pi4JwY6yP8U)
